@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
+	toolutils "github.com/pingcap/dm/tidb-tools/pkg/utils"
 	"github.com/pingcap/failpoint"
-	toolutils "github.com/pingcap/tidb-tools/pkg/utils"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 

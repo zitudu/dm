@@ -28,9 +28,9 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
+	toolutils "github.com/pingcap/dm/tidb-tools/pkg/utils"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
-	toolutils "github.com/pingcap/tidb-tools/pkg/utils"
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 )

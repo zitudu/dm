@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/pingcap/dm/tidb-tools/pkg/schemacmp"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb-tools/pkg/schemacmp"
 	"go.uber.org/zap"
 
 	"github.com/pingcap/dm/dm/master/metrics"

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	toolutils "github.com/pingcap/tidb-tools/pkg/utils"
+	toolutils "github.com/pingcap/dm/tidb-tools/pkg/utils"
 	"go.etcd.io/etcd/embed"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

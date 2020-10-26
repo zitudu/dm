@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pingcap/tidb-tools/pkg/watcher"
+	"github.com/pingcap/dm/tidb-tools/pkg/watcher"
 	"go.uber.org/zap"
 
 	"github.com/pingcap/dm/pkg/binlog"

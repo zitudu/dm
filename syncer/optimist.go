@@ -14,10 +14,10 @@
 package syncer
 
 import (
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb-tools/pkg/filter"
 	"github.com/siddontang/go-mysql/replication"
 	"go.uber.org/zap"
 

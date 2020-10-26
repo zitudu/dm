@@ -18,9 +18,9 @@ import (
 	"strconv"
 
 	"github.com/go-sql-driver/mysql"
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 	"github.com/pingcap/tidb/errno"
 	gmysql "github.com/siddontang/go-mysql/mysql"
 	"github.com/siddontang/go-mysql/replication"

@@ -15,7 +15,7 @@ package syncer
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 
 	"github.com/pingcap/dm/pkg/binlog"
 )

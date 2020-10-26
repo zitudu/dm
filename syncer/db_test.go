@@ -21,7 +21,7 @@ import (
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 	"github.com/pingcap/tidb/infoschema"
 	gouuid "github.com/satori/go.uuid"
 	"github.com/siddontang/go-mysql/mysql"

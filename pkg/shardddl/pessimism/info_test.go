@@ -21,7 +21,7 @@ import (
 	"time"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 	"go.etcd.io/etcd/clientv3"
 	"go.etcd.io/etcd/integration"
 

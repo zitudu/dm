@@ -24,10 +24,10 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	. "github.com/pingcap/check"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
+	router "github.com/pingcap/dm/tidb-tools/pkg/table-router"
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb-tools/pkg/filter"
-	router "github.com/pingcap/tidb-tools/pkg/table-router"
 )
 
 func (s *testSyncerSuite) TestAnsiQuotes(c *C) {

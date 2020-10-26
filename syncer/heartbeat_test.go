@@ -17,7 +17,7 @@ import (
 	"context"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 
 	"github.com/pingcap/dm/dm/config"
 )

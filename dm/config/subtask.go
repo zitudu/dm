@@ -26,10 +26,10 @@ import (
 	"github.com/pingcap/dm/pkg/utils"
 
 	"github.com/BurntSushi/toml"
-	bf "github.com/pingcap/tidb-tools/pkg/binlog-filter"
-	"github.com/pingcap/tidb-tools/pkg/column-mapping"
-	"github.com/pingcap/tidb-tools/pkg/filter"
-	router "github.com/pingcap/tidb-tools/pkg/table-router"
+	bf "github.com/pingcap/dm/tidb-tools/pkg/binlog-filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/column-mapping"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
+	router "github.com/pingcap/dm/tidb-tools/pkg/table-router"
 	"go.uber.org/zap"
 )
 

@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"time"
 
-	cpu "github.com/pingcap/tidb-tools/pkg/utils"
+	cpu "github.com/pingcap/dm/tidb-tools/pkg/utils"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 

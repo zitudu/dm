@@ -27,7 +27,7 @@ import (
 	"github.com/pingcap/dm/pkg/log"
 	"github.com/pingcap/dm/pkg/terror"
 
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 	"go.uber.org/zap"
 )
 

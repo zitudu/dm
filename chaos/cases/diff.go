@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
+	"github.com/pingcap/dm/tidb-tools/pkg/diff"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/diff"
 	"go.uber.org/zap"
 
 	"github.com/pingcap/dm/pkg/log"

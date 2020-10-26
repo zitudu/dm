@@ -14,9 +14,9 @@
 package syncer
 
 import (
+	bf "github.com/pingcap/dm/tidb-tools/pkg/binlog-filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 	"github.com/pingcap/parser/ast"
-	bf "github.com/pingcap/tidb-tools/pkg/binlog-filter"
-	"github.com/pingcap/tidb-tools/pkg/filter"
 	"github.com/siddontang/go-mysql/replication"
 
 	"github.com/pingcap/dm/pkg/terror"

@@ -22,7 +22,7 @@ import (
 
 	"github.com/pingcap/dm/dm/pb"
 	"github.com/pingcap/dm/tests/utils"
-	toolutils "github.com/pingcap/tidb-tools/pkg/utils"
+	toolutils "github.com/pingcap/dm/tidb-tools/pkg/utils"
 )
 
 // use query status request to test DM-worker is online

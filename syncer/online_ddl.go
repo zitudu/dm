@@ -25,9 +25,9 @@ import (
 	"github.com/pingcap/dm/pkg/cputil"
 	"github.com/pingcap/dm/pkg/terror"
 
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/filter"
 	"go.uber.org/zap"
 )
 

@@ -22,7 +22,7 @@ import (
 	"github.com/pingcap/dm/pkg/terror"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 )
 
 func TestSuite(t *testing.T) {

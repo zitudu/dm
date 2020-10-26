@@ -84,7 +84,7 @@ import (
 	"github.com/pingcap/dm/pkg/terror"
 	shardmeta "github.com/pingcap/dm/syncer/sharding-meta"
 
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 	"go.uber.org/zap"
 )
 

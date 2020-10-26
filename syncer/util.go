@@ -18,8 +18,8 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb-tools/pkg/filter"
 
 	"github.com/pingcap/dm/dm/config"
 	"github.com/pingcap/dm/pkg/terror"

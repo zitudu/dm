@@ -20,9 +20,9 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/dm/pkg/terror"
-	bf "github.com/pingcap/tidb-tools/pkg/binlog-filter"
-	"github.com/pingcap/tidb-tools/pkg/filter"
-	router "github.com/pingcap/tidb-tools/pkg/table-router"
+	bf "github.com/pingcap/dm/tidb-tools/pkg/binlog-filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
+	router "github.com/pingcap/dm/tidb-tools/pkg/table-router"
 
 	"github.com/coreos/go-semver/semver"
 )

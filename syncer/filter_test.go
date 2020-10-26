@@ -15,9 +15,9 @@ package syncer
 
 import (
 	. "github.com/pingcap/check"
+	bf "github.com/pingcap/dm/tidb-tools/pkg/binlog-filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 	"github.com/pingcap/parser"
-	bf "github.com/pingcap/tidb-tools/pkg/binlog-filter"
-	"github.com/pingcap/tidb-tools/pkg/filter"
 )
 
 func (s *testSyncerSuite) TestSkipQueryEvent(c *C) {

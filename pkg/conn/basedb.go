@@ -31,7 +31,7 @@ import (
 	"github.com/pingcap/dm/pkg/terror"
 
 	"github.com/go-sql-driver/mysql"
-	toolutils "github.com/pingcap/tidb-tools/pkg/utils"
+	toolutils "github.com/pingcap/dm/tidb-tools/pkg/utils"
 )
 
 var customID int64

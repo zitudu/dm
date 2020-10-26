@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	"github.com/docker/go-units"
-	"github.com/pingcap/dumpling/v4/export"
-	filter "github.com/pingcap/tidb-tools/pkg/table-filter"
+	"github.com/pingcap/dm/dumpling/v4/export"
+	filter "github.com/pingcap/dm/tidb-tools/pkg/table-filter"
 	"github.com/spf13/pflag"
 
 	"github.com/pingcap/dm/pkg/log"

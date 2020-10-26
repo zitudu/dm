@@ -13,9 +13,9 @@ import (
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
 	. "github.com/pingcap/check"
-	bf "github.com/pingcap/tidb-tools/pkg/binlog-filter"
-	"github.com/pingcap/tidb-tools/pkg/filter"
-	router "github.com/pingcap/tidb-tools/pkg/table-router"
+	bf "github.com/pingcap/dm/tidb-tools/pkg/binlog-filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
+	router "github.com/pingcap/dm/tidb-tools/pkg/table-router"
 )
 
 var _ = Suite(&testPortalSuite{})

@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	toolutils "github.com/pingcap/tidb-tools/pkg/utils"
+	toolutils "github.com/pingcap/dm/tidb-tools/pkg/utils"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/backoff"
 

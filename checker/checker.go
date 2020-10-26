@@ -34,11 +34,11 @@ import (
 	"github.com/pingcap/dm/pkg/utils"
 
 	_ "github.com/go-sql-driver/mysql" // for mysql
-	"github.com/pingcap/tidb-tools/pkg/check"
-	column "github.com/pingcap/tidb-tools/pkg/column-mapping"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/filter"
-	router "github.com/pingcap/tidb-tools/pkg/table-router"
+	"github.com/pingcap/dm/tidb-tools/pkg/check"
+	column "github.com/pingcap/dm/tidb-tools/pkg/column-mapping"
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
+	router "github.com/pingcap/dm/tidb-tools/pkg/table-router"
 	"github.com/siddontang/go/sync2"
 	"go.uber.org/zap"
 )

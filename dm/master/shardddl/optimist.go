@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 	"go.etcd.io/etcd/clientv3"
 	"go.uber.org/zap"
 

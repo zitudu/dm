@@ -27,10 +27,10 @@ import (
 	"github.com/pingcap/dm/pkg/terror"
 	"github.com/pingcap/dm/pkg/utils"
 
-	"github.com/pingcap/dumpling/v4/export"
+	"github.com/pingcap/dm/dumpling/v4/export"
+	filter "github.com/pingcap/dm/tidb-tools/pkg/table-filter"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
-	filter "github.com/pingcap/tidb-tools/pkg/table-filter"
 	"github.com/siddontang/go/sync2"
 	"go.uber.org/zap"
 )

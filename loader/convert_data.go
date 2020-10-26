@@ -27,10 +27,10 @@ import (
 	"github.com/pingcap/dm/pkg/terror"
 	"github.com/pingcap/dm/pkg/utils"
 
+	cm "github.com/pingcap/dm/tidb-tools/pkg/column-mapping"
+	router "github.com/pingcap/dm/tidb-tools/pkg/table-router"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
-	cm "github.com/pingcap/tidb-tools/pkg/column-mapping"
-	router "github.com/pingcap/tidb-tools/pkg/table-router"
 )
 
 func bytes2str(bs []byte) string {

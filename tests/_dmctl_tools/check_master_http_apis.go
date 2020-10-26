@@ -21,7 +21,7 @@ import (
 
 	"github.com/pingcap/dm/tests/utils"
 
-	toolutils "github.com/pingcap/tidb-tools/pkg/utils"
+	toolutils "github.com/pingcap/dm/tidb-tools/pkg/utils"
 )
 
 // use show-ddl-locks request to test DM-master is online

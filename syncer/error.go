@@ -19,11 +19,11 @@ import (
 	"strings"
 
 	"github.com/go-sql-driver/mysql"
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/ast"
 	tmysql "github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 	tddl "github.com/pingcap/tidb/ddl"
 	"github.com/pingcap/tidb/errno"
 	"github.com/pingcap/tidb/infoschema"

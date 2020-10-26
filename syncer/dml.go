@@ -19,10 +19,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/types"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 	"go.uber.org/zap"
 
 	"github.com/pingcap/dm/pkg/log"

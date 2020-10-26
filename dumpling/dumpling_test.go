@@ -22,10 +22,10 @@ import (
 
 	"github.com/pingcap/dm/dm/config"
 	"github.com/pingcap/dm/dm/pb"
+	"github.com/pingcap/dm/dumpling/v4/export"
 	"github.com/pingcap/dm/pkg/log"
-	"github.com/pingcap/dumpling/v4/export"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb-tools/pkg/filter"
 
 	. "github.com/pingcap/check"
 )

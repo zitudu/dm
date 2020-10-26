@@ -15,10 +15,10 @@ package loader
 
 import (
 	tcontext "github.com/pingcap/dm/pkg/context"
-	cm "github.com/pingcap/tidb-tools/pkg/column-mapping"
+	cm "github.com/pingcap/dm/tidb-tools/pkg/column-mapping"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/table-router"
+	"github.com/pingcap/dm/tidb-tools/pkg/table-router"
 )
 
 var _ = Suite(&testConvertDataSuite{})

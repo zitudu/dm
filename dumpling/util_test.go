@@ -18,8 +18,8 @@ import (
 
 	"github.com/docker/go-units"
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/filter"
-	tfilter "github.com/pingcap/tidb-tools/pkg/table-filter"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
+	tfilter "github.com/pingcap/dm/tidb-tools/pkg/table-filter"
 
 	"github.com/pingcap/dm/dm/config"
 	"github.com/pingcap/dm/pkg/log"

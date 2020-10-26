@@ -19,11 +19,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
+	"github.com/pingcap/dm/tidb-tools/pkg/filter"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/filter"
 	tidbConfig "github.com/pingcap/tidb/config"
 	"github.com/pingcap/tidb/domain"
 	"github.com/pingcap/tidb/infoschema"

@@ -25,12 +25,12 @@ import (
 
 	"github.com/coreos/go-semver/semver"
 	"github.com/go-sql-driver/mysql"
+	"github.com/pingcap/dm/tidb-tools/pkg/check"
+	"github.com/pingcap/dm/tidb-tools/pkg/dbutil"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/failpoint"
 	"github.com/pingcap/parser"
 	tmysql "github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb-tools/pkg/check"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 	gmysql "github.com/siddontang/go-mysql/mysql"
 	"go.uber.org/zap"
 
